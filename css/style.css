@@ -11,9 +11,15 @@ body {
 	background-color:rgba(6, 6, 85, 0) ;
 }
 
+
 .top{
 	position: relative;
   }
+
+.top img{
+	width:100%;
+
+}
 
 p{
 	position: absolute;
@@ -24,4 +30,5 @@ p{
 	padding:0;
 	margin:0;
 }
+    
 
