@@ -25,9 +25,10 @@ body {
     display: none; 
   }
 
-  .mobile-image {
+  
+.mobile-image {
     display: block; 
-  }
+}
 
   
 @media (min-width: 900px) {
