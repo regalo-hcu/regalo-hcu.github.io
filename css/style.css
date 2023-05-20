@@ -31,16 +31,31 @@ body {
 }
 
   
-@media (min-width: 900px) {
-    .pc-image {
-      display: block; 
-    }
 
-    .mobile-image {
-      display: none;
-    }
-  }
 
+@media screen and (max-width:900px) {
+	.pc-image {
+		display: none; 
+	  }
+  
+	  .mobile-image {
+		display: block;
+	  }
+
+    
+}
+
+/***PC表示***/
+@media screen and (min-width:901px) {
+	.pc-image {
+		display: block; 
+	  }
+  
+	  .mobile-image {
+		display: none;
+	  }
+    
+}
 
 p{
 	position: absolute;
@@ -51,5 +66,6 @@ p{
 	padding:0;
 	margin:0;
 }
+
     
 
