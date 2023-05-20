@@ -30,7 +30,7 @@ body {
   }
 
   
-  @media (min-width: 800px) {
+@media (min-width: 900px) {
     .pc-image {
       display: block; 
     }
