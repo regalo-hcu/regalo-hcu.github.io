@@ -1,4 +1,2 @@
 # regalo-hcu.github.io
-regalo-hcu official web
-
-Moi!
+https://regalo-hcu.github.io/
