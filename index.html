@@ -13,7 +13,12 @@
 
 <body>
   <div class="top">
-  <img src="img/main.jpg" width="100%">
+    <picture>
+      <source srcset="img/main.jpg" media="(min-width: 520px)" />
+      <!-- PC表示なら横長画像を表示 -->
+      <img src="img/main2"/>
+      <!-- モバイル表示なら縦長画像を表示 -->
+    </picture>
   <p>Find your Voice!</p>
   </div>
 
