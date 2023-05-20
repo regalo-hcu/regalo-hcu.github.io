@@ -2,6 +2,26 @@
 body {
 	background-color: #dedede;
 	background-image:
-	 linear-gradient(#ecebeb 50%, transparent 50%, transparent);
+	 linear-gradient(#f1e8f2 50%, transparent 50%, transparent);
 	background-size: 10px 10px;
+	font-family: Darumadrop One;
+
 }
+.titile{
+	background-color:rgba(6, 6, 85, 0) ;
+}
+
+.top{
+	position: relative;
+  }
+
+p{
+	position: absolute;
+	top:50%;
+	left:30%;
+	font-size:80px;
+	color: rgb(255, 255, 255);
+	padding:0;
+	margin:0;
+}
+
