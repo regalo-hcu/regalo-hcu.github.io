@@ -1,6 +1,13 @@
 $(document).ready(function(){
-    $('.slider').bxSlider({
-        auto: true,
-        pause: 5000,
-  });
+    if($(window).width() >= 768){ 
+        $('.pc-slideshow').bxSlider({
+            auto: true,
+            pause: 5000
+        });
+    } else { 
+        $('.mobile-slideshow').bxSlider({
+            auto: true,
+            pause: 5000
+        });
+    }
 });
