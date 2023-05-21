@@ -7,14 +7,14 @@ body {
 	
 }
 
-/*---------------------PC用の設定*------------------------*/
-.top{
+/*---------------------header部分！！！！！！！！！！*------------------------*/
+header{
 	position: relative; 
 }
 
 /*左上のロゴ*/
 .logo{
-	width: 200px;
+	width: 200px; 
 	position: absolute;
 	top:0%;
 	left:0%;
