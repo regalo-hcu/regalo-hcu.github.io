@@ -50,6 +50,13 @@ header{
 	display:flex;
 }
 
+/*メニュー部分*/
+.menu{
+	position: absolute;
+	top:5%;
+	left:90%;
+}
+
 
 
 
