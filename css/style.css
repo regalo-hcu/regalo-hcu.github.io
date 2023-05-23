@@ -54,12 +54,23 @@ header{
 /*メニュー部分*/
 .menu{
 	position: absolute;
-	top:5%;
-	left:90%;
+	top:1%;
+	left:15%;
+	justify-content: center;
 }
 
+.menu ul{
+	display: flex;
+    justify-content: center;
+}
 
+ul li{
+	list-style:none;
+	margin: 60px;
+}
 
-
-    
-
+li a{
+	color: white;
+	text-decoration:none;
+	font-size: 30px;
+}
