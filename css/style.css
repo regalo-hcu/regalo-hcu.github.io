@@ -22,7 +22,7 @@ header{
 	margin:0;
 }
 
-/*画像の中央に表示される見出し*/
+/*画像の中央に表示される見出し/*/
 .minimidasi{
 	font-size:30px;
 	text-align:center;
@@ -75,3 +75,42 @@ li a{
 	font-size: 30px;
 }
 
+<<<<<<< HEAD
+=======
+/*ニュース部分*/
+.newsminimidasi{
+	font-size:30px;
+	text-align:center;
+	position: absolute;
+	top:50%;
+	left:45%;
+	color: rgb(255, 255, 255);
+	padding:0;
+	margin:0;
+	font-family: 'Darumadrop One', cursive;
+}
+.newsmidasi{
+	font-family: Darumadrop One;
+	font-size:80px;
+}
+
+.newslist{
+	font-size:30px;
+	text-align:center;
+	position: absolute;
+	top:10%;
+	left:20%;
+}
+
+.newscircle{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ec4646;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  font-size: 20px;
+}
+>>>>>>> c8cceffc999d9b74b03f94ee84223dc2420378c9
