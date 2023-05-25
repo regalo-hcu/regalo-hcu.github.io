@@ -3,6 +3,6 @@ window.addEventListener('DOMContentLoaded', function() {
     sessionStorage.setItem('reloaded', 'true');
     setTimeout(function() {
       location.reload();
-    }, 100);
+    }, 1000);
   }
 });
