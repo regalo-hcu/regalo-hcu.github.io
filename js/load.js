@@ -1,3 +1,8 @@
 window.addEventListener('DOMContentLoaded', function() {
-  location.reload();
+  if (!sessionStorage.getItem('reloaded')) {
+    sessionStorage.setItem('reloaded', 'true');
+    setTimeout(function() {
+      location.reload();
+    }, 100);
+  }
 });
