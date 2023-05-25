@@ -1,6 +1,5 @@
 window.addEventListener('DOMContentLoaded', function() {
-  if (!sessionStorage.getItem('reloaded')) {
-    sessionStorage.setItem('reloaded', 'true');
+  if (performance.navigation.type !== 1) {
     setTimeout(function() {
       location.reload();
     }, 1000);
