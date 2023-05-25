@@ -1,0 +1,39 @@
+/*ニュース部分*/
+body {
+	background-color: #dedede;
+	background-image:
+	 linear-gradient(#f1e8f2 50%, transparent 50%, transparent);
+	background-size: 10px 10px;
+	
+}
+
+.newsmidasi{
+	font-family: Darumadrop One;
+	font-size:80px;
+	font-size:30px;
+	text-align:center;
+	color: rgb(255, 255, 255);
+	padding:0;
+	margin:0;
+}
+
+.newslist{
+	display:flex;
+	text-align:center;
+}
+
+/*
+.circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d90909;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+}
+*/
+
+a{
+}
