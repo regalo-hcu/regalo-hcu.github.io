@@ -64,43 +64,14 @@ header{
     justify-content: center;
 }
 
-ul li{
+.menu ul li{
 	list-style:none;
 	margin: 60px;
 }
 
-li a{
+.menu li a{
 	color: white;
 	text-decoration:none;
 	font-size: 30px;
 }
 
-/*ニュース部分*/
-
-.newsmidasi{
-	font-family: Darumadrop One;
-	font-size:80px;
-	font-size:30px;
-	text-align:center;
-	color: rgb(255, 255, 255);
-	padding:0;
-	margin:0;
-}
-
-.newslist{
-	font-size:30px;
-	display:flex;
-	text-align:center;
-}
-
-.newscircle{
-	display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #d90909;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  color: #fff;
-  font-size: 20px;
-}
