@@ -76,7 +76,7 @@ header{
 .menu{
 	position: absolute;
 	top:5%;
-	left:45%;
+	left:55%;
 	justify-content: center;
 }
 
@@ -154,6 +154,9 @@ footer{
 
 }
 
+.lisence{
+	margin-top: 30px;
+}
 .lisence p{
 	background-color: rgb(241, 225, 237);
 	text-align: center;
