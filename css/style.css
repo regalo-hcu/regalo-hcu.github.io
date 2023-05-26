@@ -54,8 +54,8 @@ header{
 /*メニュー部分*/
 .menu{
 	position: absolute;
-	top:1%;
-	left:15%;
+	top:5%;
+	left:45%;
 	justify-content: center;
 }
 
@@ -66,12 +66,13 @@ header{
 
 .menu ul li{
 	list-style:none;
-	margin: 60px;
+	margin: 20px;
 }
 
 .menu li a{
 	color: white;
 	text-decoration:none;
-	font-size: 30px;
+	font-size: 25px;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
