@@ -22,6 +22,27 @@ header{
 	margin:0;
 }
 
+/*instagramのアイコン*/
+.instagram-logo img{
+	width: 49px; 
+	position: absolute;
+	top:2%;
+	left:93%;
+	padding:0;
+	margin:0;
+}
+
+.Twitter-logo img{
+	width: 100px; 
+	position: absolute;
+	top:0%;
+	left:86%;
+	padding:0;
+	margin:0;
+}
+
+
+
 /*画像の中央に表示される見出し/*/
 .minimidasi{
 	font-size:30px;
@@ -73,6 +94,45 @@ header{
 	color: white;
 	text-decoration:none;
 	font-size: 25px;
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Kosugi', sans-serif;
 }
 
+
+/*ピックアップ部分*/
+.pickup-items{
+	display:flex;
+	justify-content: space-between;
+	margin-left: 40px;
+	margin-right:40px;
+}
+
+.pickup-items a{
+	color:black;
+	text-decoration: none;
+}
+.pickup-item{
+	background-color: #c7bebe;
+	padding-bottom: 10px;
+}
+.pickup{
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.section{
+	margin-top: 125px;
+	text-align:center;
+	font-family: 'Darumadrop One', cursive;
+	font-size:50px;
+}
+
+.pickup img{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 400px;
+	height:250px;
+}
+
+.hutoku{
+	font-family: 'Kosugi', sans-serif;
+}
