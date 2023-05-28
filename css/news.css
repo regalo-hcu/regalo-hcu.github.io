@@ -25,6 +25,8 @@ body {
 
 .newslist{
 	display:flex;
+	align-items: center; /* 縦方向に中央揃え */
+  	justify-content: center; /* 横方向に中央揃え */
 	text-align:center;
 	font-size: 20px;
 }
