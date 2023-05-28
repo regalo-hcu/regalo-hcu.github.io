@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="icon" type="image/x-icon" href="img/info/favicon.ico">
     <!--フォントデータのダウンロード-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi&family=Noto+Sans+JP:wght@200&display=swap" rel="stylesheet">    
+    
     <!--端末サイズの指定-->
     <meta name="viewport" content="width=device-width" />
     <!--何これ-->
@@ -20,6 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/load.js"></script>
 </head>
 
 <body>
@@ -43,16 +47,20 @@
     </div>
     
     
-    <p class="minimidasi"><span class="midasi">Find your Voice!</span><br><br><br><br>HCU<br>Acapella Club<br>regalo</p>
+    <p class="minimidasi"><span class="midasi">Find your Voice!!!</span><br><br><br><br>HCU<br>Acapella Club<br>regalo</p>
     <a href="index.html"><img src="img/slide/logo.png" class="logo"></a>
 
+    <div class="instagram-logo"><a href="https://instagram.com/regalo_hcu/"><img src="img/info/instagram.png"></a></div>
+    <div class="Twitter-logo"><a href="https://twitter.com/regaloHCU"><img src="img/info/twitter.png"></a></div>
+
+   
     <div class="menu">
-      <!--ここにメニューを作ってね-->
       <ul>
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="acapella.html">アカペラとは</a></li>
-        <li><a href="aboutus.html">regaloとは</a></li>
-        <li><a href="news.html">お知らせ</a></li>
+        <li class="menu_item"><a href="index.html">Home</a></li>
+        <li class="menu_item"><a href="acapella.html">Acapella</a></li>
+        <li class="menu_item"><a href="aboutus.html">About us</a></li>
+        <li class="menu_item"><a href="news.html">news</a></li>
+        <li class="menu_item"><a href="blog.html">blog</a></li>
       </ul>
     </div>
 
@@ -63,15 +71,56 @@
   <!--main部分(その下の内容部分)-->
   <!----------------------------------------------->
   <main>
+    <div class="pickup">
+      <h1 class="section">PICK UP!</h1>
 
+      <div class="pickup-items">
       
+      <a href="news.html">
+      <div class="pickup-item">
+        <img src="img/pickup/pickup1.jpg">
+        <div class="text">
+          <p>2023.05.15<br><span class="hutoku">夏ライブのお知らせ</span></p>
+        </div>
+      </div>
+      </a>
+
+      <a href="news.html">
+      <div class="pickup-item">
+        <img src="img/pickup/pickup2.jpg">
+        <div class="text">
+          <p>2023.05.15<br><span class="hutoku">夏ライブのお知らせ</span></p>
+        </div>
+      </div>
+      </a>
+
+      <a href="news.html">
+      <div class="pickup-item">
+        <img src="img/pickup/pickup3.jpg">
+        <div class="text">
+          <p>2023.05.15<br><span class="hutoku">夏ライブのお知らせ</span></p>
+        </div>
+      </div>
+      </a>
+    </div>
+
+    </div>    
   </main>
 
-  <!----------------------------------------------->
-  <!--footer部分(その下の内容部分)-->
-  <!-----------------------------------------------> 
+  <!-----------------------------------------
   <footer>
+    <div class="footer-left">
+      <img src="img/slide/logo.png" class="footer-logo">
+      <p>広島市立大学</p>
+      <p>アカペラ部regalo</p>
+      <div class="twitter"><a href="https://twitter.com/regaloHCU?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @regaloHCU</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+    </div>
+    
   </footer>
+  ---->
+  <div class="lisence">
+    <p>Copyright © 2023- regalohcu inc. All Rights Reserved.</p>
+  </div>
 
 </body>
 </html>

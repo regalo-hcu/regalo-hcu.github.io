@@ -22,6 +22,27 @@ header{
 	margin:0;
 }
 
+/*instagramのアイコン*/
+.instagram-logo img{
+	width: 49px; 
+	position: absolute;
+	top:2%;
+	left:93%;
+	padding:0;
+	margin:0;
+}
+
+.Twitter-logo img{
+	width: 100px; 
+	position: absolute;
+	top:0%;
+	left:86%;
+	padding:0;
+	margin:0;
+}
+
+
+
 /*画像の中央に表示される見出し/*/
 .minimidasi{
 	font-size:30px;
@@ -54,8 +75,8 @@ header{
 /*メニュー部分*/
 .menu{
 	position: absolute;
-	top:1%;
-	left:15%;
+	top:5%;
+	left:55%;
 	justify-content: center;
 }
 
@@ -66,12 +87,78 @@ header{
 
 .menu ul li{
 	list-style:none;
-	margin: 60px;
+	margin: 20px;
 }
 
 .menu li a{
 	color: white;
 	text-decoration:none;
-	font-size: 30px;
+	font-size: 25px;
+	font-family: 'Kosugi', sans-serif;
 }
 
+
+/*ピックアップ部分*/
+.pickup-items{
+	display:flex;
+	justify-content: space-between;
+	margin-left: 40px;
+	margin-right:40px;
+}
+
+.pickup-items a{
+	color:black;
+	text-decoration: none;
+}
+.pickup-item{
+	background-color: #c7bebe;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.pickup{
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.section{
+	margin-top: 125px;
+	text-align:center;
+	font-family: 'Darumadrop One', cursive;
+	font-size:50px;
+}
+
+.pickup img{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 400px;
+	height:250px;
+}
+
+.hutoku{
+	font-family: 'Kosugi', sans-serif;
+}
+
+footer{
+	margin-top: 100px;
+	background-color: #f0e8e8;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.footer-logo{
+	width:10%;
+	margin-left: 30px;
+}
+
+.footer-left p{
+	margin-left: 50px;
+
+}
+
+.lisence{
+	margin-top: 30px;
+}
+.lisence p{
+	background-color: rgb(241, 225, 237);
+	text-align: center;
+	font-size: 10px;
+}

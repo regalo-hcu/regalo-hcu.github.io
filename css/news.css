@@ -22,6 +22,9 @@ body {
 	text-align:center;
 }
 
+.circle{
+    background-color: aqua;
+}
 /*
 .circle{
   display: flex;
