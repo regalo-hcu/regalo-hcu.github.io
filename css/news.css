@@ -19,6 +19,15 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.newsmidasi2{
+	font-size:30px;
+	text-align:center;
+	color: black;
+	padding:0;
+	margin:0;
+}
+
+
 .main{
 	text-align:center;
 }
