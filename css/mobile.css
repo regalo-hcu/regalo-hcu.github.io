@@ -22,19 +22,28 @@
 	margin:0;
     }
     .minimidasi{
-        font-size:30px;
-        text-align:center;
-        position: absolute;
-        top:30%;
-        left:10%;
-        color: rgb(255, 255, 255);
-       
-        font-family: 'Darumadrop One', cursive;
+        display: none;
     }
     .midasi{
-        font-family: Darumadrop One;
-        font-size:80px;
+        display: none;
     }
+}
+.mobile-midasi{
+    display: flex;
+	font-size:30px;
+	text-align:center;
+	position: absolute;
+	top:50%;
+	left:30%;
+	color: rgb(255, 255, 255);
+	padding:0;
+	margin:0;
+	font-family: 'Darumadrop One', cursive;
+}
+.midasi{
+    display: flex;
+	font-family: Darumadrop One;
+	font-size:80px;
 }
 
 @media screen and (max-width:900px) {
